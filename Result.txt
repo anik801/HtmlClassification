@@ -1,0 +1,107 @@
+Train X,Y:  7019 7019
+Test X,Y:  1263 1263
+
+Random Forest
+
+Confusion Matrix:
+ [[  2   0   6  62   0   0  15]
+ [  0   0   0   0   0   0   1]
+ [  0   0   5  35   0   0   2]
+ [ 42   0  47 728   5   0 120]
+ [  0   0   4  20   1   0   0]
+ [  0   0   2   6   0   0   4]
+ [  0   0   6 115   1   0  34]]
+Classification report:
+              precision    recall  f1-score   support
+
+     course       0.05      0.02      0.03        85
+ department       0.00      0.00      0.00         1
+    faculty       0.07      0.12      0.09        42
+      other       0.75      0.77      0.76       942
+    project       0.14      0.04      0.06        25
+      staff       0.00      0.00      0.00        12
+    student       0.19      0.22      0.20       156
+
+avg / total       0.59      0.61      0.60      1263
+
+Accuracy:
+ 0.6096595407759303
+
+
+kNN
+
+Confusion Matrix:
+ [[  1   0   4  73   0   0   7]
+ [  0   0   0   1   0   0   0]
+ [  3   0   0  36   1   0   2]
+ [ 49   4  24 785  21   0  59]
+ [  0   0   1  24   0   0   0]
+ [  1   0   0  11   0   0   0]
+ [  3   0   1 136   2   0  14]]
+Classification report:
+              precision    recall  f1-score   support
+
+     course       0.02      0.01      0.01        85
+ department       0.00      0.00      0.00         1
+    faculty       0.00      0.00      0.00        42
+      other       0.74      0.83      0.78       942
+    project       0.00      0.00      0.00        25
+      staff       0.00      0.00      0.00        12
+    student       0.17      0.09      0.12       156
+
+avg / total       0.57      0.63      0.60      1263
+
+Accuracy:
+ 0.6334125098970704
+
+SVM
+
+Confusion Matrix:
+ [[  1   0   9  63   1   0  11]
+ [  0   0   0   1   0   0   0]
+ [  2   0   3  31   1   0   5]
+ [ 58   0  76 683  16   0 109]
+ [  0   0   2  21   0   0   2]
+ [  0   0   2   9   0   0   1]
+ [  1   0   4 124   1   0  26]]
+Classification report:
+              precision    recall  f1-score   support
+
+     course       0.02      0.01      0.01        85
+ department       0.00      0.00      0.00         1
+    faculty       0.03      0.07      0.04        42
+      other       0.73      0.73      0.73       942
+    project       0.00      0.00      0.00        25
+      staff       0.00      0.00      0.00        12
+    student       0.17      0.17      0.17       156
+
+avg / total       0.57      0.56      0.57      1263
+
+Accuracy:
+ 0.564528899445764
+
+Naive Bayes
+
+Confusion Matrix:
+ [[  5   2   4  53   5  10   6]
+ [  0   0   0   0   0   1   0]
+ [  1   1   5  17   5   6   7]
+ [100 107  74 324 105 142  90]
+ [  5   0   2  11   2   2   3]
+ [  2   0   1   5   0   4   0]
+ [  3  16  15  48   6  53  15]]
+Classification report:
+              precision    recall  f1-score   support
+
+     course       0.04      0.06      0.05        85
+ department       0.00      0.00      0.00         1
+    faculty       0.05      0.12      0.07        42
+      other       0.71      0.34      0.46       942
+    project       0.02      0.08      0.03        25
+      staff       0.02      0.33      0.03        12
+    student       0.12      0.10      0.11       156
+
+avg / total       0.55      0.28      0.37      1263
+
+Accuracy:
+ 0.281076801266825
