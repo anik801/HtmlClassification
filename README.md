@@ -17,9 +17,10 @@ The following barchart depicts the gist of the evaluation results of trained mod
 
 ## Source Code and Data
 
-- [main.py](https://github.com/anik801/HtmlClassification/blob/master/main.py) is the source code for classification task.
-- [Dataset](https://github.com/anik801/HtmlClassification/tree/master/webkb) contains the raw dateset used in this project.
-- [output](https://github.com/anik801/HtmlClassification/blob/master/Result.txt) contains the inital results.
+- [CODE](https://github.com/anik801/HtmlClassification/blob/master/main.py) is the source code for classification task.
+- [DATASET](https://github.com/anik801/HtmlClassification/tree/master/webkb) contains the raw dateset used in this project.
+- [OUTPUT](https://github.com/anik801/HtmlClassification/blob/master/Result.txt) contains the inital results.
+- [REPORT](https://github.com/anik801/HtmlClassification/blob/master/Report.pdf) contains detailed project report.
 
 ## Project Team and Contributors
 
