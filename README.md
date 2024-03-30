@@ -25,6 +25,5 @@ The following barchart depicts the gist of the evaluation results of trained mod
 
 ## Project Team and Contributors
 
-[Sheik Murad Hassan Anik](https://www.linkedin.com/in/anik801/)
-
-[Fahad Ibrar]
+- [Sheik Murad Hassan Anik](https://www.linkedin.com/in/anik801/)
+- Fahad Ibrar
